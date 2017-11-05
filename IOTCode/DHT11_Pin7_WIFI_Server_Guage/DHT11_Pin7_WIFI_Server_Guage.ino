@@ -13,8 +13,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 //----wifi use
 uint8_t MacData[6];
-char ssid[] = "BruceSonyC5";      // your network SSID (name)
-char pass[] = "12345678";     // your network password
+char ssid[] = "NCNU-EMBA";      // your network SSID (name)
+char pass[] = "0492918270";     // your network password
 int keyIndex = 0;
 IPAddress  Meip , Megateway , Mesubnet ;
 String MacAddress ;
